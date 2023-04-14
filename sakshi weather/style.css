@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('wethr.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+}
+#cityInput {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+#weatherData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.weatherCard {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+.weatherCard img {
+    width: 50px;
+    height: 50px;
+}
+.weatherCard h3 {
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+}
